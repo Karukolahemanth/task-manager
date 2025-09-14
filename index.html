@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Task Manager</title>
+
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1>Task Manager</h1>
+
+  <!-- Task input form -->
+  <form onsubmit="addTask(); return false;">
+    <input type="text" id="taskInput" placeholder="Enter a task">
+    <input type="submit" value="Add Task">
+  </form>
+
+  <!-- Task list -->
+  <ul id="taskList"></ul>
+
+  <!-- Link to external JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
